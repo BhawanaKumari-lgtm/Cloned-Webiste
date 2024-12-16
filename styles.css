@@ -179,3 +179,15 @@ footer{
     margin-left: 46px;
     align-items: center;
 }
+body {
+    background-color: #141414;  
+  }
+  .header {
+    color: #e50914;  
+  }
+  @media (max-width: 768px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+    }
+  }
